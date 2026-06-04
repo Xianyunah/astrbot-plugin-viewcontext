@@ -1,0 +1,8 @@
+{
+  "target_user_id": {
+    "description": "指定接收上下文文件的用户 ID（留空则发给命令调用者）",
+    "type": "string",
+    "default": "",
+    "hint": "设置后，上下文文件将通过私聊发送给该用户"
+  }
+}

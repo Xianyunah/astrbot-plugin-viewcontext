@@ -1,0 +1,6 @@
+name: viewcontext_plugin
+display_name: 对话上下文查看器
+desc: 查看当前 LLM 对话上下文内容，支持导出为文本文件发送给用户
+version: v1.0.0
+author: Xianyunah
+repo: https://github.com/Xianyunah/astrbot-plugin-viewcontext
