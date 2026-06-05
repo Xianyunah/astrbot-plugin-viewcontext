@@ -1,8 +1,15 @@
 {
   "target_user_id": {
-    "description": "指定接收上下文文件的用户 ID（留空则发给命令调用者）",
+    "description": "指定允许执行命令并接收文件的用户 ID（必填，只有该用户可使用本插件命令）",
     "type": "string",
     "default": "",
-    "hint": "设置后，上下文文件将通过私聊发送给该用户"
+    "hint": "必须设置，只有该用户 ID 才能执行 /viewcontext 和 /viewprompt"
+  },
+  "output_format": {
+    "description": "导出文件格式",
+    "type": "string",
+    "default": "text",
+    "options": ["text", "json"],
+    "hint": "text：可读文本格式；json：原始 JSON 格式"
   }
 }
